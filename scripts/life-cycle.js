@@ -1,3 +1,5 @@
+//If you want to use D3 you have to call this.getDOMNode() to get the actual compoenent
+
 var BasicComp = React.createClass({
 	//The render function
 	render: function(){
@@ -31,5 +33,5 @@ var BasicComp = React.createClass({
 	getDefaultProps: function(){
 
 	},
-	
+
 });
