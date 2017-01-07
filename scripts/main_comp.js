@@ -1,7 +1,7 @@
 var MyComponent = React.createClass({
     render: function(){
         return (
-            <h2>Hello, world!</h2>
+            <h2>Hello, world! {this.props.name}!</h2>
         );
     }
 });
