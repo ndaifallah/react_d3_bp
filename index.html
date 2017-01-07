@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+<!-- before starting, if you're working in local machine and you're using chrome -->
+<!-- C:\Program Files (x86)\Google\Chrome\Application> ./chrome.exe --args -allow-file-access-from-files -->
 	<title>React test</title>
 	<link rel="stylesheet" href="styles/bootstrap.min.css">
 	<script type="text/javascript" src="scripts/react.js"></script>
@@ -14,8 +16,11 @@
 </div>
 <script type="text/babel" src="scripts/main_comp.js"></script>
 <script type="text/babel">
-	ReactDOM.render(
-		<h1>Hello world</h1>
+	ReactDOM.render(<div>
+			<h1>Hello world</h1>
+			<MyComponent/>
+			<MyButton />
+		</div>
 	, document.getElementById('content'));
 
 </script>
